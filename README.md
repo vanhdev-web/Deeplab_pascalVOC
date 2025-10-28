@@ -4,6 +4,32 @@
 
 This repository implements semantic segmentation using the DeeplabV3 model with a MobileNetV3 backbone on the Pascal VOC dataset.  The project allows for both training a Deeplab model from scratch and performing inference on images using a pre-trained model.
 
+<p align="center">
+  <img src="demo/deeplab1.png" width="30%">
+  <img src="demo/deeplab1_overlay.png" width="30%">
+  <img src="demo/deeplab1_prediction.png" width="30%">
+</p>
+
+<p align="center">
+  <img src="demo/cat_dog.jpg" width="30%">
+  <img src="demo/cat_dog_overlay.jpg" width="30%">
+  <img src="demo/cat_dog_prediction.jpg" width="30%">
+</p>
+
+
+<p align="center">
+  <img src="demo/horse.jpg" width="30%">
+  <img src="demo/horse_overlay.jpg" width="30%">
+  <img src="demo/horse_prediction.jpg" width="30%">
+</p>
+
+<p align="center">
+  <img src="demo/plane.jpg" width="30%">
+  <img src="demo/plane_overlay.jpg" width="30%">
+  <img src="demo/plane_prediction.jpg" width="30%">
+</p>
+
+
 ## Features and Functionality
 
 *   **Semantic Segmentation:**  Performs pixel-level classification to assign each pixel in an image to a specific object class.
